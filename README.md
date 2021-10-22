@@ -1,22 +1,22 @@
 # HỢP NGỮ MIPS - HANGMAN
 
 ## Mô tả các hàm
-a) Hàm nhập tên: (Nhập tên người chơi và kiểm tra tính hợp lệ)
+### a) Hàm nhập tên: (Nhập tên người chơi và kiểm tra tính hợp lệ)
 - Người chơi được yêu cầu nhập tên và tên được quy định bao gồm các chữ cái in hoa, in thường hoặc kí tự số (A-Z, a-z, 0-9), không có các kí tự đặc biệt
-b) Hàm hiện từ ngẫu nhiên từ đề thi:
+### b) Hàm hiện từ ngẫu nhiên từ đề thi:
 - Đọc tập tin “dethi.txt” đã lưu trữ, thực hiện lấy 1 từ ngẫu nhiên và hiện ra màn hình dạng
-c) Hàm dự đoán:
+### c) Hàm dự đoán:
 - Cho người chơi dự đoán 7 lần, mỗi lần sẽ lựa chọn
-- “Đoán ký tự” :
++ “Đoán ký tự” :
 - Sau mỗi lần đoán sai, màn hình sẽ hiển thị hình ảnh là trạng thái của người chơi tùy vào số lần đoán sai.
-- “Đoán đáp án”:
++ “Đoán đáp án”:
 - Sau đó tính điểm cho mỗi trường hợp
-d) Hàm cho trường hợp trả lời đúng từ:
+### d) Hàm cho trường hợp trả lời đúng từ:
 - Lấy ngẫu nhiên từ mới và tiếp tục lại trò chơi
-e) Hàm cho trường hợp sai từ :
+### e) Hàm cho trường hợp sai từ :
 - Nếu thua, lưu kết quả vào file. Xuất thông tin: Tên người chơi - Tổng số điểm - Số lượt chiến thắng.
 - Cho người chơi lựa chọn: 1) Tiếp tục chơi (không cần nhập lại tên) hoặc 2) Thoát trò chơi
-f) Hàm hiển thị 10 người chơi điểm cao nhất:
+### f) Hàm hiển thị 10 người chơi điểm cao nhất:
 - Đọc file “nguoichoi.txt”
 - Cắt thông tin của từng người chơi. Sau đó cắt điểm của người đó và lưu vào mảng chứa điểm
 - Tạo mảng chứa số thứ tự từ 0 đến số người chơi
