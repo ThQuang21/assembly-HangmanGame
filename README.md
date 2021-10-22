@@ -29,4 +29,4 @@
 - [@ThQuang21](https://github.com/ThQuang21): Ngô Thiên Quang – 19126031 
 - [@vuhoanganh6401](https://github.com/vuhoanganh6401): Vũ Hoàng Anh – 19126039 
 - [@thtngan](https://github.com/thtngan): Trần Hoàng Thảo Ngân – 19126055 
-- Phan Tường Vy - 19126072
+- [@DiDiPhan](https://github.com/DiDiPhan): Phan Tường Vy - 19126072
